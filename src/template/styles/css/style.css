@@ -1,31 +1,17 @@
 /* Including styles files */
-/* Including fonts */
 @import url(../../libs/fancybox/dist/jquery.fancybox.css);
+@import url(../../libs/slick-carousel/slick/slick.css);
 @font-face {
-  font-family: "RobotoCondensed";
-  src: url("../../fonts/RobotoCondensedLight.eot");
-  src: url("../../fonts/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoCondensedLight.woff") format("woff"), url("../../fonts/RobotoCondensedLight.ttf") format("truetype");
+  font-family: 'Russo One';
   font-style: normal;
-  font-weight: 300; }
-
-@font-face {
-  font-family: "RobotoCondensed";
-  src: url("../../fonts/RobotoCondensedRegular.eot");
-  src: url("../../fonts/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoCondensedRegular.woff") format("woff"), url("../../fonts/RobotoCondensedRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  font-family: "RobotoCondensed";
-  src: url("../../fonts/RobotoCondensedBold.eot");
-  src: url("../../fonts/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoCondensedBold.woff") format("woff"), url("../../fonts/RobotoCondensedBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700; }
+  font-weight: 400;
+  src: url("../../fonts/Russo One/russo-one-v6-latin_cyrillic-regular.eot");
+  src: local("Russo One"), local("RussoOne-Regular"), url("../../fonts/Russo One/russo-one-v6-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Russo One/russo-one-v6-latin_cyrillic-regular.woff2") format("woff2"), url("../../fonts/Russo One/russo-one-v6-latin_cyrillic-regular.woff") format("woff"), url("../../fonts/Russo One/russo-one-v6-latin_cyrillic-regular.ttf") format("truetype"), url("../../fonts/Russo One/russo-one-v6-latin_cyrillic-regular.svg#RussoOne") format("svg"); }
 
 /* Grid */
 .case {
   position: relative;
-  width: 1200px;
+  width: 1290px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; }
@@ -139,7 +125,7 @@
 
 body {
   font-size: 16px;
-  font-family: "Tahoma", sans-serif;
+  font-family: "Russo One", sans-serif;
   color: #000;
   background: white; }
 
@@ -186,7 +172,7 @@ input, textarea, button {
   .input__wrap {
     display: block;
     font-size: 16px;
-    font-family: "Tahoma", sans-serif;
+    font-family: "Russo One", sans-serif;
     background: white;
     width: 100%; }
 
@@ -195,7 +181,7 @@ input, textarea, button {
   .textarea__wrap {
     display: block;
     font-size: 16px;
-    font-family: "Tahoma", sans-serif;
+    font-family: "Russo One", sans-serif;
     background: white;
     width: 100%;
     resize: none; }
@@ -204,7 +190,7 @@ input, textarea, button {
   position: relative;
   display: inline-block;
   font-size: 0;
-  font-family: "Tahoma", sans-serif;
+  font-family: "Russo One", sans-serif;
   cursor: pointer;
   text-align: center;
   -webkit-transition: .3s;
